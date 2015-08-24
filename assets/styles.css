@@ -1,0 +1,183 @@
+html,body{
+margin:0;padding:0;
+height:100%;
+width:100%;
+overflow:hidden;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+div,p{
+    box-sizing:border-box
+}
+#particleContainer{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    pointer-events:none
+}
+.particle{
+    position:absolute;
+    transition:all 8s cubic-bezier(.2,.2,.5,.7);
+    background-color:#ff32ce;
+    pointer-events:none
+}
+#mainContainer{
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-image:url("http://www.uc129.com/uploads/allimg/150127/1-15012G12934564.jpg");
+}
+#portal{
+    position:absolute;
+    width:800px;
+    height:664px;
+    margin:auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    text-align:center
+}
+#buttons{
+    width:800px;
+    height:200px;
+    position:absolute;
+    bottom:64px
+}
+#logo:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#logo:active{
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+}
+#logo {
+	-moz-transition: all 150ms linear 0s;
+	-ms-transition: all 150ms linear 0s;
+	-o-transition: all 150ms linear 0s;
+	transition: all 150ms linear 0s;
+}
+@media screen and (max-height: 600px)
+{
+#portal{
+position:relative
+}
+}
+@media screen and (max-width:  800px)
+{
+#portal{
+position:relative
+}
+}
+@-webkit-keyframes logoTilt{0%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}100%{transform:rotate(-4deg)}}@keyframes logoTilt{0%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}100%{transform:rotate(-4deg)}}
+
+body {
+	background-image: url(images/bg.png);
+}
+
+li {
+	list-style:none;
+}
+
+links li img {
+  width: 100%;
+}
+.links li {
+	max-width: 150px;
+	display: inline-block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+a.link {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 200;
+	line-height: 50px;
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.links {
+	margin-top: 25px;
+}
+
+a.link:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+a.link:active {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+}
+a {
+	-moz-transition: all 150ms linear 0s;
+	-ms-transition: all 150ms linear 0s;
+	-o-transition: all 150ms linear 0s;
+	transition: all 150ms linear 0s;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+	-moz-transition: all 150ms linear 0s;
+	-ms-transition: all 150ms linear 0s;
+	-o-transition: all 150ms linear 0s;
+	transition: all 150ms linear 0s;
+}
+a:active {
+    text-decoration: none;
+}
+.pageWidth {
+	text-align: center;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+div #players {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.player-count.animated {
+    display: inline-block;
+    font-size: 28px;
+    color: rgb(61, 198, 230);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+p.p3 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(18, 184, 255, 0.66);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+	margin-bottom: 2px;
+    margin-top: 2px;
+}
